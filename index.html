@@ -5,38 +5,64 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Poppins:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/stylesheet.css">
+
   <title>Frontend Mentor | Huddle landing page with single column layout</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-  Build The Community Your Fans Will Love
+  <div class="container">
+    <header>
+      <img src="images/logo.svg" alt="huddle-logo">
+    </header>
 
-  Huddle re-imagines the way we build communities. You have a voice, but so does 
-  your audience. Create connections with your users as you engage in genuine discussion.
+    <div class="main">
+      <h1>Build The Community Your Fans Will Love</h1>
+      <p class="main-content">Huddle re-imagines the way we build communities. You have a voice, but so does
+      your audience. Create connections with your users as you engage in genuine discussion.</p>
+      <img class="mock-img" src="images/screen-mockups.svg" alt="image">
+      <h1>Sign Up For Early Access</h1>
+      <div class="form-wrap">
+        <form action="">
+          <input class="form-content" type="text">
+          <input class="form-content" type="submit" value="Sign Up">
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="footer-container">
+    <div class="logo-wrap">
+      <div class="footer-logo">
+        <img src="images/logo2.svg" alt="huddle-logo">
+      </div>
 
-  Sign Up For Early Access
+      <div class="sns-logo">
+        <i class="fab fa-facebook-square fa-3x"></i>
+        <i class="fab fa-instagram fa-3x"></i>
+        <i class="fab fa-twitter-square fa-3x"></i>
+      </div>
+    </div>
 
-  Register
+    <div class="menu-wrap">
+      <ul class="menu">
+        <li><a class="menu-link" href="">About Us</a></li>
+        <li><a class="menu-link" href="">What We Do</a></li>
+        <li><a class="menu-link" href="">FAQ</a></li>
+        <li><a class="menu-link" href="">Career</a></li>
+        <li><a class="menu-link" href="">Blog</a></li>
+        <li><a class="menu-link" href="">Contact Us</a></li>
+      </ul>
+      <div class="copyright">
+        <p>
+          &copy; 2018 Huddle Copyright
+        </p>
+      </div>
+    </div>
+  </div>
 
-  About Us
-  What We Do
-  FAQ
-  Career
-  Blog
-  Contact Us
 
-  &copy; 2018 Huddle Copyright
-
-  <footer>
-    <p class="attribution">
-      This page started life as a challenge on <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> 🎉
-    </p>
-  </footer>
 </body>
 </html>
